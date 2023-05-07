@@ -6,11 +6,13 @@ function init() {
   let voices = speechSynthesis.getVoices(); 
   console.log(voices); 
   let voiceSelect = document.getElementById('voice-select'); 
+  populateList(); 
   console.log(voiceSelect); 
 
-  setTimeout(populateList, 2000); 
-
+  speechSynthesis.addEventListener('voiceschanged', populateList); 
+  
   function populateList(){
+    voices = speechSynthesis.getVoices(); 
     console.log(voices);
     for(let i = 0; i < voices.length; i++){
       const option = document.createElement('option'); 
