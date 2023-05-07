@@ -4,11 +4,11 @@ window.addEventListener('DOMContentLoaded', init);
 
 function init() {
   let voices = speechSynthesis.getVoices(); 
-  //console.log(voices); 
+  console.log(voices); 
   let voiceSelect = document.getElementById('voice-select'); 
   console.log(voiceSelect); 
 
-  setTimeout(populateList, 100); 
+  setTimeout(populateList, 2000); 
 
   function populateList(){
     console.log(voices);
