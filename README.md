@@ -2,4 +2,8 @@
 
 Abijit Jayachandran
 
-[Github Actions Repo](https://github.com/abijitj/CSE110-lab5-explore)
+[Expose Link](https://abijitj.github.io/CSE110-Lab5/expose.html)
+
+[Explore Part 1 Link](https://abijitj.github.io/CSE110-Lab5/explore.html) 
+
+[Explore Part 2 Link](https://github.com/abijitj/CSE110-lab5-explore)
